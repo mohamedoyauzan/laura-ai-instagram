@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.oauth/
+tools/cloudflared.exe
+__pycache__/
+tmp/
+

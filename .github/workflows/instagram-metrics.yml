@@ -1,0 +1,44 @@
+name: Guardar métricas de Laura
+
+on:
+  schedule:
+    - cron: "43 12 * * *"
+      timezone: "Europe/Madrid"
+  workflow_dispatch:
+
+concurrency:
+  group: instagram-laura-metrics
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar proyecto
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Recoger estadísticas
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: python instagram_insights.py --limit 30
+
+      - name: Guardar historial
+        run: |
+          if git diff --quiet -- analytics; then
+            exit 0
+          fi
+          git config user.name "Laura Instagram Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add analytics
+          git commit -m "Actualizar métricas de Instagram"
+          git push

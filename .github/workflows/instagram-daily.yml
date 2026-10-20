@@ -1,0 +1,45 @@
+name: Publicar Laura en Instagram
+
+on:
+  schedule:
+    - cron: "37 20 * * *"
+      timezone: "Europe/Madrid"
+  workflow_dispatch:
+
+concurrency:
+  group: instagram-laura-daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar proyecto
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Publicar lote diario
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: python cloud_publish.py
+
+      - name: Guardar estado para evitar duplicados
+        if: always()
+        run: |
+          if git diff --quiet -- cloud_schedule.json; then
+            exit 0
+          fi
+          git config user.name "Laura Instagram Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add cloud_schedule.json
+          git commit -m "Registrar publicación automática"
+          git push

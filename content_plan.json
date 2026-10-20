@@ -1,0 +1,282 @@
+[
+  {
+    "id": "day01",
+    "city": "Paris",
+    "location": "Trocadéro con la Torre Eiffel",
+    "shot": "plano general caminando de espaldas, giro leve hacia un lado",
+    "outfit": "gabardina beige, vaqueros claros y zapatillas blancas",
+    "hook": "París empieza aquí ✨",
+    "caption": "Mi primera mañana virtual en París. ¿Trocadéro al amanecer o Eiffel iluminada de noche? ✨\n\n📍 Trocadéro, Paris\n\n#Paris #EiffelTower #VirtualCreator #AIGirl",
+    "status": "published",
+    "batch_id": "2026-10-20-day01",
+    "prepared_at": "2026-10-20T21:15:35.303670+00:00",
+    "photo_file": "posts/auto/2026-10-20-day01-paris.jpg",
+    "reel_file": "posts/auto/2026-10-20-day01-paris-reel.mp4",
+    "published_at": "2026-10-20T21:17:40.594681+00:00",
+    "media_ids": [
+      "18107218016300564",
+      "17942267379363765"
+    ]
+  },
+  {
+    "id": "day02",
+    "city": "Paris",
+    "location": "Montmartre y Sacré-Cœur",
+    "shot": "plano medio de perfil subiendo las escaleras, mirada fuera de cámara",
+    "outfit": "falda negra, jersey crema y botas",
+    "hook": "El París que parece una película",
+    "caption": "Perderse por Montmartre sigue siendo el mejor plan. ¿Entramos en una cafetería o seguimos hasta Sacré-Cœur? ☕\n\n📍 Montmartre, Paris\n\n#Montmartre #ParisFrance #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day03",
+    "city": "London",
+    "location": "Tower Bridge desde More London Riverside",
+    "shot": "sujeto lejano apoyada en la barandilla, puente completo visible",
+    "outfit": "abrigo azul marino y bufanda roja",
+    "hook": "Londres bajo un cielo perfecto",
+    "caption": "Un paseo junto al Támesis y esta vista. ¿Cuál es tu rincón favorito de Londres? 🇬🇧\n\n📍 Tower Bridge, London\n\n#London #TowerBridge #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day04",
+    "city": "London",
+    "location": "Notting Hill, Portobello Road",
+    "shot": "candid de cuerpo entero cruzando la calle, sin mirar a cámara",
+    "outfit": "chaqueta vaquera y vestido floral",
+    "hook": "La calle más bonita de Londres",
+    "caption": "Colores, mercados y casas que parecen de cuento. ¿Qué puerta elegirías? 🌸\n\n📍 Notting Hill, London\n\n#NottingHill #LondonLife #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day05",
+    "city": "Amsterdam",
+    "location": "Prinsengracht con casas del canal",
+    "shot": "sentada de lado junto al canal, bicicleta desenfocada en primer plano",
+    "outfit": "chaqueta de cuero marrón y pantalón negro",
+    "hook": "Amsterdam sin prisas",
+    "caption": "Canales, bicicletas y una tarde tranquila. ¿Barco por el canal o paseo en bici? 🚲\n\n📍 Prinsengracht, Amsterdam\n\n#Amsterdam #CanalLife #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day06",
+    "city": "Prague",
+    "location": "Puente de Carlos al amanecer",
+    "shot": "plano largo caminando hacia la cámara pero mirando las estatuas",
+    "outfit": "abrigo gris y gorro de lana",
+    "hook": "Praga antes de que despierte",
+    "caption": "Madrugar por este puente sí merece la pena. ¿Viajarías aquí en invierno? ✨\n\n📍 Charles Bridge, Prague\n\n#Prague #CharlesBridge #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day07",
+    "city": "Vienna",
+    "location": "Palacio de Schönbrunn y jardines",
+    "shot": "espalda completa mirando el palacio, composición simétrica",
+    "outfit": "vestido verde salvia y bolso pequeño",
+    "hook": "Un domingo imperial",
+    "caption": "Hoy paseo virtual entre los jardines de Schönbrunn. ¿Palacio o jardines? 🌿\n\n📍 Schönbrunn Palace, Vienna\n\n#Vienna #Schonbrunn #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day08",
+    "city": "Venice",
+    "location": "Puente de Rialto visto desde Riva del Vin",
+    "shot": "retrato ambiental de perfil, góndola pasando detrás",
+    "outfit": "blusa blanca y falda azul",
+    "hook": "Venecia sí parece irreal",
+    "caption": "Cada esquina de Venecia cambia con la luz. ¿Góndola al amanecer o al atardecer? 🚤\n\n📍 Rialto Bridge, Venice\n\n#Venice #Rialto #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day09",
+    "city": "Florence",
+    "location": "Piazzale Michelangelo con el Duomo al fondo",
+    "shot": "plano general sentada en el muro, rostro de tres cuartos",
+    "outfit": "vestido rojo sencillo y sandalias",
+    "hook": "La mejor vista de Florencia",
+    "caption": "Florencia desde arriba y una lista enorme de lugares por descubrir. ¿Subirías andando? ❤️\n\n📍 Piazzale Michelangelo, Firenze\n\n#Florence #Firenze #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day10",
+    "city": "Milan",
+    "location": "Galería Vittorio Emanuele II",
+    "shot": "contrapicado de cuerpo entero mirando la cúpula, gente natural alrededor",
+    "outfit": "traje crema moderno y zapatillas",
+    "hook": "Milán mira hacia arriba",
+    "caption": "La cúpula de la Galería siempre roba la atención. ¿Moda o arquitectura? ✨\n\n📍 Galleria Vittorio Emanuele II, Milano\n\n#Milano #GalleriaVittorioEmanuele #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day11",
+    "city": "Lisbon",
+    "location": "Miradouro de Santa Luzia",
+    "shot": "perfil apoyada en los azulejos con Alfama al fondo",
+    "outfit": "vestido amarillo y bolso de paja",
+    "hook": "Lisboa tiene esta luz",
+    "caption": "Azulejos, tejados y el Tajo al fondo. ¿Tranvía 28 o paseo por Alfama? 💛\n\n📍 Miradouro de Santa Luzia, Lisboa\n\n#Lisboa #Alfama #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day12",
+    "city": "Lisbon",
+    "location": "Torre de Belém desde el paseo marítimo",
+    "shot": "plano muy lejano caminando por la orilla, torre completa",
+    "outfit": "camisa blanca amplia y shorts vaqueros",
+    "hook": "Una mañana junto al Tajo",
+    "caption": "Brisa del río y una parada obligatoria en Belém. ¿Pastel de nata antes o después? 😋\n\n📍 Torre de Belém, Lisboa\n\n#Belem #Lisbon #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day13",
+    "city": "Seville",
+    "location": "Plaza de España",
+    "shot": "plano bajo caminando junto al canal, mirada lateral",
+    "outfit": "vestido azul cobalto",
+    "hook": "Sevilla nunca falla",
+    "caption": "La Plaza de España parece un escenario. ¿Qué ciudad española visitamos después? 💃\n\n📍 Plaza de España, Sevilla\n\n#Sevilla #PlazaDeEspaña #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day14",
+    "city": "Granada",
+    "location": "Mirador de San Nicolás con la Alhambra",
+    "shot": "desde atrás sentada en el mirador, Alhambra nítida al fondo",
+    "outfit": "chaqueta corta marrón y pantalón blanco",
+    "hook": "Atardecer frente a la Alhambra",
+    "caption": "Hay vistas que piden silencio. ¿Has visto alguna vez la Alhambra al atardecer? 🌅\n\n📍 Mirador de San Nicolás, Granada\n\n#Granada #Alhambra #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day15",
+    "city": "Madrid",
+    "location": "Palacio de Cristal, Parque del Retiro",
+    "shot": "interior luminoso, plano medio mirando hacia el techo de cristal",
+    "outfit": "vestido blanco minimalista",
+    "hook": "Madrid también tiene magia",
+    "caption": "Luz entrando por cada rincón del Palacio de Cristal. ¿Retiro por la mañana o al atardecer? ✨\n\n📍 Palacio de Cristal, Madrid\n\n#Madrid #ElRetiro #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day16",
+    "city": "Copenhagen",
+    "location": "Nyhavn",
+    "shot": "caminando de perfil con fachadas de colores y barcos detrás",
+    "outfit": "abrigo rosa pálido y pantalón oscuro",
+    "hook": "Copenhague en colores",
+    "caption": "Nyhavn es imposible de recorrer sin parar cada dos metros. ¿Qué fachada elegirías? 🎨\n\n📍 Nyhavn, Copenhagen\n\n#Copenhagen #Nyhavn #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day17",
+    "city": "Stockholm",
+    "location": "Stortorget, Gamla Stan",
+    "shot": "retrato amplio tomando café de pie, mirada hacia la plaza",
+    "outfit": "abrigo camel y botas negras",
+    "hook": "Una pausa en Estocolmo",
+    "caption": "Café caliente y las fachadas de Gamla Stan. ¿Visitarías Estocolmo en otoño? ☕\n\n📍 Stortorget, Stockholm\n\n#Stockholm #GamlaStan #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day18",
+    "city": "Berlin",
+    "location": "Puerta de Brandeburgo",
+    "shot": "plano documental cruzando Pariser Platz, sujeto pequeño",
+    "outfit": "chaqueta negra, vaqueros y zapatillas",
+    "hook": "Berlín en movimiento",
+    "caption": "Historia y vida cotidiana en la misma plaza. ¿Qué lado de Berlín quieres ver después? 🖤\n\n📍 Brandenburger Tor, Berlin\n\n#Berlin #BrandenburgGate #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day19",
+    "city": "Budapest",
+    "location": "Bastión de los Pescadores",
+    "shot": "primer plano lateral con arcos y Parlamento desenfocado",
+    "outfit": "abrigo blanco y pendientes pequeños",
+    "hook": "Budapest desde las alturas",
+    "caption": "El Danubio desde el Bastión de los Pescadores. ¿Buda o Pest? ✨\n\n📍 Fisherman’s Bastion, Budapest\n\n#Budapest #FishermansBastion #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day20",
+    "city": "Athens",
+    "location": "Anafiotika con la Acrópolis visible",
+    "shot": "candid subiendo una calle estrecha, tomada desde atrás",
+    "outfit": "vestido lino celeste y sandalias",
+    "hook": "Una isla escondida en Atenas",
+    "caption": "Calles blancas bajo la Acrópolis. Anafiotika parece otro mundo. ¿La conocías? 🇬🇷\n\n📍 Anafiotika, Athens\n\n#Athens #Anafiotika #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day21",
+    "city": "Santorini",
+    "location": "Oia y cúpulas azules",
+    "shot": "plano general en terraza pública, cuerpo de tres cuartos sin mirar a cámara",
+    "outfit": "vestido blanco fluido",
+    "hook": "El azul más famoso de Grecia",
+    "caption": "Oia entre blanco y azul. ¿Amanecer tranquilo o atardecer lleno de vida? 💙\n\n📍 Oia, Santorini\n\n#Santorini #Oia #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day22",
+    "city": "Istanbul",
+    "location": "Plaza de Sultanahmet con Santa Sofía",
+    "shot": "plano medio caminando, rostro parcialmente de perfil",
+    "outfit": "abrigo largo verde oliva y pañuelo ligero al cuello",
+    "hook": "Europa y Asia en un día",
+    "caption": "Primera parada virtual en Estambul. ¿Santa Sofía o paseo por el Bósforo? ✨\n\n📍 Hagia Sophia, Istanbul\n\n#Istanbul #HagiaSophia #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day23",
+    "city": "Dubrovnik",
+    "location": "murallas con el puerto viejo al fondo",
+    "shot": "plano amplio desde atrás caminando por la muralla",
+    "outfit": "top blanco, falda terracota y sombrero en la mano",
+    "hook": "Una ciudad sobre el Adriático",
+    "caption": "Tejados rojos, piedra y mar. ¿Recorrerías toda la muralla de Dubrovnik? 🌊\n\n📍 Dubrovnik City Walls\n\n#Dubrovnik #Adriatic #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day24",
+    "city": "Bruges",
+    "location": "Rozenhoedkaai",
+    "shot": "sentada junto al canal en plano lejano, edificios reflejados",
+    "outfit": "abrigo burdeos y bufanda crema",
+    "hook": "Brujas parece un cuento",
+    "caption": "Canales tranquilos y fachadas medievales. ¿Escapada de un día o fin de semana completo? 🏰\n\n📍 Rozenhoedkaai, Bruges\n\n#Bruges #Belgium #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day25",
+    "city": "Edinburgh",
+    "location": "Victoria Street",
+    "shot": "plano de calle caminando cuesta arriba, mirada a escaparates",
+    "outfit": "gabardina verde, falda escocesa y botas",
+    "hook": "La curva más bonita de Edimburgo",
+    "caption": "Victoria Street tiene color incluso con cielo gris. ¿Qué tienda visitarías primero? ✨\n\n📍 Victoria Street, Edinburgh\n\n#Edinburgh #VictoriaStreet #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day26",
+    "city": "Dublin",
+    "location": "Ha'penny Bridge",
+    "shot": "perfil cruzando el puente, río Liffey visible",
+    "outfit": "chaqueta verde oscura y vaqueros",
+    "hook": "Dublín al otro lado del puente",
+    "caption": "Un paseo corto con una vista clásica de Dublín. ¿Qué canción pondrías a este momento? 🍀\n\n📍 Ha’penny Bridge, Dublin\n\n#Dublin #HapennyBridge #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day27",
+    "city": "Porto",
+    "location": "Ribeira con puente Dom Luís I",
+    "shot": "plano medio apoyada en la ribera, mirando el puente",
+    "outfit": "blusa azul y pantalón blanco",
+    "hook": "Oporto junto al Duero",
+    "caption": "Casas de colores y el Dom Luís I al fondo. ¿Cruzarías por arriba o por abajo? 💙\n\n📍 Ribeira, Porto\n\n#Porto #Ribeira #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day28",
+    "city": "Nice",
+    "location": "Promenade des Anglais",
+    "shot": "plano largo caminando junto al mar, cabello movido por el viento",
+    "outfit": "vestido coral y zapatillas blancas",
+    "hook": "La Costa Azul hace honor a su nombre",
+    "caption": "Mar azul y una caminata infinita. ¿Niza entra en tu lista de verano? 🌊\n\n📍 Promenade des Anglais, Nice\n\n#NiceFrance #CotedAzur #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day29",
+    "city": "Monaco",
+    "location": "Port Hercule desde Avenue de la Porte Neuve",
+    "shot": "silueta de tres cuartos mirando el puerto desde arriba",
+    "outfit": "conjunto negro elegante y gafas en la mano",
+    "hook": "Mónaco desde arriba",
+    "caption": "Barcos, ciudad y Mediterráneo en una sola vista. ¿Día tranquilo o noche elegante? ✨\n\n📍 Port Hercule, Monaco\n\n#Monaco #MonteCarlo #VirtualCreator #AIGirl"
+  },
+  {
+    "id": "day30",
+    "city": "Barcelona",
+    "location": "Bunkers del Carmel al atardecer",
+    "shot": "sentada de espaldas, panorámica completa de Barcelona",
+    "outfit": "sudadera clara y vaqueros",
+    "hook": "30 días, una última puesta de sol",
+    "caption": "Cierro este primer mes virtual mirando Barcelona desde arriba. ¿Qué ciudad debería abrir el siguiente viaje? 🌅\n\n📍 Bunkers del Carmel, Barcelona\n\n#Barcelona #BunkersDelCarmel #VirtualCreator #AIGirl"
+  }
+]

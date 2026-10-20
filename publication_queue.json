@@ -1,0 +1,104 @@
+[
+  {
+    "file": "posts/2026-10-20-01-panaderia.jpg",
+    "caption": "Una parada rápida que terminó siendo mi plan favorito de la mañana 🥐☀️",
+    "status": "published",
+    "media_id": "18103632962526708",
+    "published_at": "2026-10-20T17:09:11.369673+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-02-atardecer.jpg",
+    "caption": "Donde el día baja el ritmo 🌅",
+    "status": "published",
+    "media_id": "18114162110603398",
+    "published_at": "2026-10-20T17:09:29.205809+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-03-coliseo.jpg",
+    "caption": "Roma se siente distinta cuando caminas sin prisa 🇮🇹",
+    "status": "published",
+    "media_id": "18120532270943198",
+    "published_at": "2026-10-20T20:45:36.963685+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-04-fontana-trevi.jpg",
+    "caption": "Una moneda y un deseo ✨⛲",
+    "status": "published",
+    "media_id": "18026087606877576",
+    "published_at": "2026-10-20T20:45:53.022530+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-05-plaza-espana-roma.jpg",
+    "caption": "Subiendo sin mirar el reloj 🤎",
+    "status": "published",
+    "media_id": "17903489718600567",
+    "published_at": "2026-10-20T20:46:12.503586+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-06-panteon.jpg",
+    "caption": "Espresso con historia ☕️",
+    "status": "published",
+    "media_id": "18097723211421107",
+    "published_at": "2026-10-20T20:46:32.365590+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-07-san-pedro.jpg",
+    "caption": "Hay lugares que te hacen quedarte en silencio ✨",
+    "status": "published",
+    "media_id": "18211648249368302",
+    "published_at": "2026-10-20T20:46:51.766908+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-08-sagrada-familia.jpg",
+    "caption": "Siempre encuentro algo nuevo cuando miro hacia arriba ❤️",
+    "status": "published",
+    "media_id": "18014267966975506",
+    "published_at": "2026-10-20T20:49:42.980942+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-09-park-guell.jpg",
+    "caption": "Barcelona desde el rincón más colorido 🎨",
+    "status": "published",
+    "media_id": "18093244106185328",
+    "published_at": "2026-10-20T20:49:57.287884+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-10-barceloneta.jpg",
+    "caption": "El mejor final para un día de paseo 🌊",
+    "status": "published",
+    "media_id": "18114062429133562",
+    "published_at": "2026-10-20T20:50:12.021902+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-11-barrio-gotico.jpg",
+    "caption": "Perderse también cuenta como plan 🗺️",
+    "status": "published",
+    "media_id": "17903036934599932",
+    "published_at": "2026-10-20T20:50:25.992558+00:00"
+  },
+  {
+    "file": "posts/2026-10-20-12-arco-triunfo.jpg",
+    "caption": "Un descanso antes de seguir 🤍",
+    "status": "published",
+    "media_id": "17976740688149609",
+    "published_at": "2026-10-20T20:50:40.283927+00:00"
+  },
+  {
+    "file": "posts/auto/2026-10-20-day01-paris-reel.mp4",
+    "caption": "Mi primera mañana virtual en París. ¿Trocadéro al amanecer o Eiffel iluminada de noche? ✨\n\n📍 Trocadéro, Paris\n\n#Paris #EiffelTower #VirtualCreator #AIGirl",
+    "type": "reel",
+    "batch_id": "2026-10-20-day01",
+    "status": "published",
+    "media_id": "18107218016300564",
+    "published_at": "2026-10-20T21:17:06.996009+00:00"
+  },
+  {
+    "file": "posts/auto/2026-10-20-day01-paris.jpg",
+    "caption": "",
+    "type": "story",
+    "batch_id": "2026-10-20-day01",
+    "status": "published",
+    "media_id": "17942267379363765",
+    "published_at": "2026-10-20T21:17:40.594681+00:00"
+  }
+]
