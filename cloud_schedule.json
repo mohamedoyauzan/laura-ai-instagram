@@ -17,7 +17,7 @@
     "id": "day03",
     "publish_date": "2026-10-22",
     "city": "London",
-    "caption": "Hay una parte de Tower Bridge que casi nadie enseña: la pasarela de cristal sobre el Támesis. 😳\n\n¿Entramos o seguimos caminando junto al río?\n\n📍 Tower Bridge, London\n🎥 “TOWER BRIDGE, London UK 4K”, Kauko Helavuo, CC BY 3.0 (recortado y editado), Wikimedia Commons.\n\n#London #TowerBridge #VisitLondon #TravelReels",
+    "caption": "Tower Bridge por dentro: pasarela de cristal, vistas al Támesis y una entrada que impresiona más de lo esperado. 👀\n\n¿Te atreverías a cruzarlo?\n\n📍 Tower Bridge, London\n🎥 the Dronalist y Kauko Helavuo, CC BY 3.0 (recortado y editado), Wikimedia Commons.\n🎵 Tunetank — Upbeat Travel Vlog Background, Pixabay Content License.\n\n#London #TowerBridge #VisitLondon #TravelReels",
     "reel_file": "day03-reel.mp4",
     "story_file": "day03-story.jpg",
     "reel_status": "pending",
@@ -25,7 +25,13 @@
     "status": "pending",
     "vlog_generated": true,
     "vlog_source": "https://commons.wikimedia.org/wiki/File:TOWER_BRIDGE,_London_UK_4K.webm",
-    "vlog_license": "CC BY 3.0"
+    "vlog_license": "CC BY 3.0",
+    "vlog_version": "v4-laura",
+    "vlog_music": "Tunetank - Upbeat Travel Vlog Background (Pixabay)",
+    "vlog_sources": [
+      "https://commons.wikimedia.org/wiki/File:Aerial_footage_of_London,_United_Kingdom_featuring_London_Tower,_Downtown_London,_London_Bridge,_River_Thames.webm",
+      "https://commons.wikimedia.org/wiki/File:TOWER_BRIDGE,_London_UK_4K.webm"
+    ]
   },
   {
     "id": "day04",
