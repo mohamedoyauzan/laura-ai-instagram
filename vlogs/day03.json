@@ -1,0 +1,19 @@
+{
+  "id": "day03-tower-bridge",
+  "image": "posts/cloud/day03-story.jpg",
+  "video_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1b/TOWER_BRIDGE%2C_London_UK_4K.webm/TOWER_BRIDGE%2C_London_UK_4K.webm.480p.vp9.webm",
+  "source_page": "https://commons.wikimedia.org/wiki/File:TOWER_BRIDGE,_London_UK_4K.webm",
+  "author": "Kauko Helavuo",
+  "license": "CC BY 3.0",
+  "hook": "La parte de Tower Bridge que casi nadie enseña",
+  "outro": "¿Entramos o seguimos junto al Támesis?",
+  "voiceover": "Hoy entramos en una parte de Tower Bridge que casi nadie enseña. Arriba hay una pasarela de cristal sobre el Támesis. ¿Entramos, o seguimos caminando junto al río?",
+  "intro_duration": 1.6,
+  "outro_duration": 2.3,
+  "segments": [
+    {"start": 136, "duration": 3.0},
+    {"start": 170, "duration": 3.0},
+    {"start": 443, "duration": 3.0}
+  ],
+  "output": "posts/cloud/day03-reel.mp4"
+}

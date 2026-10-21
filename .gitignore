@@ -5,4 +5,5 @@
 tools/cloudflared.exe
 __pycache__/
 tmp/
+temp/
 
