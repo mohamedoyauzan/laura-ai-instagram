@@ -59,12 +59,18 @@
     "id": "day05",
     "publish_date": "2026-10-24",
     "city": "Amsterdam",
-    "caption": "Canales, bicicletas y una tarde tranquila. ¿Barco por el canal o paseo en bici? 🚲\n\n📍 Prinsengracht, Amsterdam\n\n#Amsterdam #CanalLife #VirtualCreator #AIGirl",
+    "caption": "Ámsterdam a ras de agua: casas estrechas, puentes y bicicletas por todas partes. ¿Barco o bicicleta? 🚲\n\n📍 Canales de Amsterdam\n🎥 Quahadi, CC0 (recortado y editado), Wikimedia Commons.\n🎵 Tunetank — Upbeat Travel Vlog Background, Pixabay Content License.\n\n#Amsterdam #AmsterdamCanals #Netherlands #TravelReels",
     "reel_file": "day05-reel.mp4",
     "story_file": "day05-story.jpg",
     "reel_status": "pending",
     "story_status": "pending",
-    "status": "pending"
+    "status": "pending",
+    "vlog_generated": true,
+    "vlog_source": "https://commons.wikimedia.org/wiki/File:Channel_cruise_in_Amsterdam_142945.webm",
+    "vlog_license": "CC0 1.0",
+    "vlog_version": "v2-two-laura-shots",
+    "vlog_music": "Tunetank - Upbeat Travel Vlog Background (Pixabay)",
+    "prepared_at": "2026-10-21T23:09:00+02:00"
   },
   {
     "id": "day06",
