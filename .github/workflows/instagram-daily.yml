@@ -1,9 +1,6 @@
 name: Publicar Laura en Instagram
 
 on:
-  schedule:
-    - cron: "37 20 * * *"
-      timezone: "Europe/Madrid"
   workflow_dispatch:
 
 concurrency:
