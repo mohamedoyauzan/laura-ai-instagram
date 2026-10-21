@@ -20,7 +20,7 @@
     "caption": "Tower Bridge por dentro: pasarela de cristal, vistas al Támesis y una entrada que impresiona más de lo esperado. 👀\n\n¿Te atreverías a cruzarlo?\n\n📍 Tower Bridge, London\n🎥 the Dronalist y Kauko Helavuo, CC BY 3.0 (recortado y editado), Wikimedia Commons.\n🎵 Tunetank — Upbeat Travel Vlog Background, Pixabay Content License.\n\n#London #TowerBridge #VisitLondon #TravelReels",
     "reel_file": "day03-reel-v5.mp4",
     "story_file": "day03-story.jpg",
-    "reel_status": "pending",
+    "reel_status": "published",
     "story_status": "pending",
     "status": "pending",
     "vlog_generated": true,
@@ -31,18 +31,26 @@
     "vlog_sources": [
       "https://commons.wikimedia.org/wiki/File:Aerial_footage_of_London,_United_Kingdom_featuring_London_Tower,_Downtown_London,_London_Bridge,_River_Thames.webm",
       "https://commons.wikimedia.org/wiki/File:TOWER_BRIDGE,_London_UK_4K.webm"
-    ]
+    ],
+    "reel_media_id": "18102193523309154",
+    "reel_permalink": "https://www.instagram.com/reel/DexTZSNEiX3/",
+    "reel_published_at": "2026-10-21T20:49:01+0000"
   },
   {
     "id": "day04",
     "publish_date": "2026-10-23",
     "city": "London",
-    "caption": "Colores, mercados y casas que parecen de cuento. ¿Qué puerta elegirías? 🌸\n\n📍 Notting Hill, London\n\n#NottingHill #LondonLife #VirtualCreator #AIGirl",
+    "caption": "Un paseo por Portobello Road: casas de colores, buses rojos y puestos vintage. ¿Qué tesoro buscarías tú? 📷\n\n📍 Notting Hill, London\n🎥 Kauko Helavuo, CC BY 3.0 (recortado y editado), Wikimedia Commons.\n🎵 Tunetank — Upbeat Travel Vlog Background, Pixabay Content License.\n\n#NottingHill #PortobelloRoad #London #TravelReels",
     "reel_file": "day04-reel.mp4",
     "story_file": "day04-story.jpg",
     "reel_status": "pending",
     "story_status": "pending",
-    "status": "pending"
+    "status": "pending",
+    "vlog_generated": true,
+    "vlog_source": "https://commons.wikimedia.org/wiki/File:Fascinating_Portobello_Road,_LONDON_UK._4K.webm",
+    "vlog_license": "CC BY 3.0",
+    "vlog_version": "v2-two-laura-shots",
+    "vlog_music": "Tunetank - Upbeat Travel Vlog Background (Pixabay)"
   },
   {
     "id": "day05",
