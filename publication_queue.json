@@ -100,5 +100,105 @@
     "status": "published",
     "media_id": "17942267379363765",
     "published_at": "2026-10-20T21:17:40.594681+00:00"
+  },
+  {
+    "file": "posts/jordi/01-presentacion.jpg",
+    "caption": "Empieza una nueva etapa. Fuerza, constancia y progreso real, sesión a sesión. ¿Qué objetivo estás persiguiendo ahora? 🏋️\n\nJordi es un creador virtual de fitness.\n\n#FitnessEspaña #Entrenamiento #GymMotivation #CreadorVirtual",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi01",
+    "status": "published",
+    "media_id": "18125426909296663",
+    "published_at": "2026-10-22T19:01:29.132055+00:00"
+  },
+  {
+    "file": "posts/jordi/02-sentadilla.jpg",
+    "caption": "La sentadilla mejora cuando dejas de perseguir kilos y empiezas a repetir una técnica sólida. Control, profundidad y paciencia.\n\n#Sentadilla #LegDay #Fuerza #FitnessEspaña",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi02",
+    "status": "published",
+    "media_id": "18059508842797404",
+    "published_at": "2026-10-22T19:01:44.215418+00:00"
+  },
+  {
+    "file": "posts/jordi/03-dominadas.jpg",
+    "caption": "Dominadas estrictas: menos impulso, más control. Primero domina tu peso corporal; después añade dificultad.\n\n#Dominadas #BackDay #Calistenia #Entrenamiento",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi03",
+    "status": "published",
+    "media_id": "18163190242494780",
+    "published_at": "2026-10-22T19:02:01.746502+00:00"
+  },
+  {
+    "file": "posts/jordi/04-press-inclinado.jpg",
+    "caption": "En el press inclinado, una repetición limpia vale más que levantar por ego. Escápulas estables y recorrido que puedas controlar.\n\n#PressInclinado #PushDay #Pecho #GymEspaña",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi04",
+    "status": "published",
+    "media_id": "18629678995018296",
+    "published_at": "2026-10-22T19:02:19.997650+00:00"
+  },
+  {
+    "file": "posts/jordi/05-peso-muerto-rumano.jpg",
+    "caption": "Peso muerto rumano: lleva la cadera atrás, mantén la barra cerca y siente el trabajo donde toca. La técnica manda.\n\n#PesoMuertoRumano #Femoral #LegWorkout #Fuerza",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi05",
+    "status": "published",
+    "media_id": "18128756560862957",
+    "published_at": "2026-10-22T19:02:47.548275+00:00"
+  },
+  {
+    "file": "posts/jordi/06-jalon-espalda.jpg",
+    "caption": "Una espalda fuerte se construye sin prisas. Tira con los codos, controla la vuelta y evita convertir cada serie en un balanceo.\n\n#Espalda #JalonAlPecho #PullDay #Fitness",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi06",
+    "status": "published",
+    "media_id": "17925207699431090",
+    "published_at": "2026-10-22T19:03:05.157657+00:00"
+  },
+  {
+    "file": "posts/jordi/07-press-hombro.jpg",
+    "caption": "Press de hombro: postura estable, recorrido cómodo y repeticiones que puedas repetir igual. Progresar también es mejorar el control.\n\n#Hombros #ShoulderPress #GymTips #Entrenamiento",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi07",
+    "status": "published",
+    "media_id": "18075672020469081",
+    "published_at": "2026-10-22T19:03:19.495735+00:00"
+  },
+  {
+    "file": "posts/jordi/08-camino-pesas.jpg",
+    "caption": "Hay días con motivación y días con disciplina. Los dos cuentan, pero solo uno aparece siempre.\n\n#Disciplina #GymLifestyle #Constancia #FitnessEspaña",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi08",
+    "status": "published",
+    "media_id": "17972896032173383",
+    "published_at": "2026-10-22T19:03:39.774884+00:00"
+  },
+  {
+    "file": "posts/jordi/09-post-entreno.jpg",
+    "caption": "No necesitas una sesión perfecta. Necesitas volver mañana, registrar lo que haces y avanzar un poco cada semana.\n\n#Progreso #GymMotivation #FitnessJourney #Fuerza",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi09",
+    "status": "published",
+    "media_id": "18089618222306129",
+    "published_at": "2026-10-22T19:03:57.692927+00:00"
+  },
+  {
+    "file": "posts/jordi/10-antes-de-empezar.jpg",
+    "caption": "El entrenamiento empieza antes de la primera serie: llega con un plan, prepara el material y deja claro qué vas a mejorar hoy.\n\n#RutinaGym #FitnessHabits #Entrenamiento #JordiFitt",
+    "type": "photo",
+    "batch_id": "jordi-launch-2026-10-22",
+    "launch_id": "jordi10",
+    "status": "published",
+    "media_id": "18082132271380876",
+    "published_at": "2026-10-22T19:04:12.122093+00:00"
   }
 ]

@@ -36,6 +36,27 @@ Las métricas se conservan en `analytics/latest.json` y
 `analytics/history.jsonl`. El token se renueva automáticamente cada siete días
 mediante `token_manager.py`.
 
+## Perfiles separados
+
+Las credenciales de cada cuenta permanecen en archivos ignorados por Git. Para
+trabajar con Jordi se selecciona su perfil antes de ejecutar cualquier comando:
+
+```powershell
+$env:INSTAGRAM_ENV_FILE='.env.jordi'
+python .\instagram_publish.py verify
+```
+
+Las diez fotos de lanzamiento de Jordi se preparan y encolan de forma repetible:
+
+```powershell
+python .\prepare_jordi_launch.py
+python .\queue_jordi_launch.py
+python .\publish_queue.py --batch-id jordi-launch-2026-10-22
+```
+
+La cola registra cada publicación al completarse para que un reintento no cree
+duplicados.
+
 ## Publicación manual de una foto
 
 Instagram necesita descargar la imagen desde una URL HTTPS pública:
