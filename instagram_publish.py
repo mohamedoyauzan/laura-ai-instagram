@@ -17,7 +17,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-ENV_PATH = ROOT / ".env"
+ENV_PATH = Path(os.environ.get("INSTAGRAM_ENV_FILE", ROOT / ".env"))
+if not ENV_PATH.is_absolute():
+    ENV_PATH = ROOT / ENV_PATH
 GRAPH_URL = "https://graph.instagram.com"
 
 

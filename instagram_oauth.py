@@ -8,6 +8,7 @@ imprimir credenciales en la consola.
 from __future__ import annotations
 
 import json
+import os
 import threading
 from datetime import datetime, timezone
 import urllib.error
@@ -17,7 +18,9 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-ENV_PATH = ROOT / ".env"
+ENV_PATH = Path(os.environ.get("INSTAGRAM_ENV_FILE", ROOT / ".env"))
+if not ENV_PATH.is_absolute():
+    ENV_PATH = ROOT / ENV_PATH
 # Instagram exige HTTPS para la URI registrada. El servidor local escucha por
 # HTTP para que el usuario pueda reenviar manualmente el código cuando el
 # navegador integrado no admite el certificado autofirmado.

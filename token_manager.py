@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -11,7 +12,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-ENV_PATH = ROOT / ".env"
+ENV_PATH = Path(os.environ.get("INSTAGRAM_ENV_FILE", ROOT / ".env"))
+if not ENV_PATH.is_absolute():
+    ENV_PATH = ROOT / ENV_PATH
 REFRESH_AFTER = timedelta(days=7)
 
 
