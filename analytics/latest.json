@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-22T18:27:52.819399+00:00",
+  "collected_at": "2026-10-23T15:29:13.647860+00:00",
   "media": [
     {
       "id": "18132857759494997",
@@ -11,8 +11,8 @@
       "like_count": 3,
       "comments_count": 0,
       "insights": {
-        "views": 85,
-        "reach": 70,
+        "views": 87,
+        "reach": 72,
         "likes": 3,
         "comments": 0,
         "saved": 0,
@@ -30,8 +30,8 @@
       "like_count": 8,
       "comments_count": 0,
       "insights": {
-        "views": 123,
-        "reach": 106,
+        "views": 124,
+        "reach": 107,
         "likes": 8,
         "comments": 0,
         "saved": 0,
@@ -49,7 +49,7 @@
       "like_count": 3,
       "comments_count": 1,
       "insights": {
-        "views": 47,
+        "views": 49,
         "reach": 13,
         "likes": 3,
         "comments": 1,
@@ -125,8 +125,8 @@
       "like_count": 5,
       "comments_count": 1,
       "insights": {
-        "views": 65,
-        "reach": 35,
+        "views": 66,
+        "reach": 36,
         "likes": 5,
         "comments": 1,
         "saved": 0,
