@@ -99,7 +99,7 @@ def create_container(
     caption: str,
     kind: str,
 ) -> str:
-    values = {"access_token": token}
+    values = {"access_token": token, "is_ai_generated": "true"}
     if kind == "photo":
         values["image_url"] = media_url
         if caption:
