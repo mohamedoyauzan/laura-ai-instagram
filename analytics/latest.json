@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-25T15:04:12.486086+00:00",
+  "collected_at": "2026-10-26T17:39:59.926416+00:00",
   "media": [
     {
       "id": "18132857759494997",
@@ -12,7 +12,7 @@
       "comments_count": 1,
       "insights": {
         "views": 89,
-        "reach": 73,
+        "reach": 74,
         "likes": 3,
         "comments": 1,
         "saved": 0,
@@ -31,7 +31,7 @@
       "comments_count": 0,
       "insights": {
         "views": 124,
-        "reach": 107,
+        "reach": 108,
         "likes": 8,
         "comments": 0,
         "saved": 0,
@@ -201,8 +201,8 @@
       "like_count": 4,
       "comments_count": 0,
       "insights": {
-        "views": 64,
-        "reach": 31,
+        "views": 66,
+        "reach": 32,
         "likes": 4,
         "comments": 0,
         "saved": 0,
