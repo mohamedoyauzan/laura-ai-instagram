@@ -104,6 +104,34 @@ Son automatizaciones locales sin coste de alojamiento. El ordenador y Codex
 deben poder ejecutar la tarea; si están apagados, la ejecución tendrá que esperar
 hasta que el entorno vuelva a estar disponible.
 
+## Calendario autónomo de Jordi
+
+Jordi usa una agenda independiente y cuatro horarios diarios en zona
+`Europe/Madrid`: foto a las 10:00, Reel a las 12:00 e historias a las 13:00 y
+15:00. El workflow de GitHub se despierta cada 15 minutos y el publicador decide
+si hay una pieza vencida; nunca publica más de una pieza por ejecución.
+
+```powershell
+python .\prepare_jordi_automation.py
+python .\jordi_automation.py status
+python .\jordi_automation.py due --dry-run --now "2026-10-27T10:05:00+01:00"
+```
+
+Cada fuente debe superar una revisión visual registrada y un filtro técnico de
+resolución, exposición, contraste, nitidez y recorte. Los derivados se validan
+otra vez antes de publicarse. Las ejecuciones retrasadas más de tres horas se
+marcan como caducadas para evitar ráfagas de publicaciones.
+
+El workflow `.github/workflows/jordi-daily.yml` necesita dos secretos separados:
+`JORDI_INSTAGRAM_ACCESS_TOKEN` y `JORDI_INSTAGRAM_USER_ID`. Nunca reutiliza los
+secretos de Laura y verifica que la cuenta conectada sea exactamente
+`jordi_fitt` antes de crear contenido.
+
+La API de publicación de Instagram no permite seleccionar automáticamente
+audio del catálogo de Reels. Los vídeos preparados usan pistas con licencia
+incluidas en `assets/music/`; una tendencia del catálogo solo puede añadirse
+manualmente desde la app de Instagram.
+
 ## Ejecución con el ordenador apagado
 
 La carpeta `.github/workflows/` contiene una alternativa para GitHub Actions:

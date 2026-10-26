@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "timezone": "Europe/Madrid",
+  "account_username": "jordi_fitt",
+  "generated_at": "2026-10-27T00:14:42.017676+01:00",
+  "items": [
+    {
+      "id": "day01-post-1000",
+      "publish_at": "2026-10-27T10:00:00+01:00",
+      "kind": "post",
+      "file": "posts/jordi/automation/2026-10-27/post.jpg",
+      "caption": "Remo a una mano: hombro abajo, codo hacia la cadera y vuelta controlada. Menos impulso, más espalda.\n\n#Espalda #PullDay #GymTips #JordiFitt",
+      "quality": {
+        "status": "approved",
+        "source_sha256": "f0b9842ed5d9507ab1c6c4ecec9566dddc1ef4a5074769fea5a4593c1db3d652",
+        "technical": {
+          "approved": true,
+          "width": 1122,
+          "height": 1402,
+          "mean_luma": 49.6,
+          "contrast": 47.63,
+          "edge_std": 21.27,
+          "clipped_dark": 0.0749,
+          "clipped_light": 0.0016,
+          "reasons": []
+        },
+        "visual_review": "Identidad consistente; espalda, mano, cable y máquina plausibles; encuadre de espalda aprobado."
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day01-reel-1200",
+      "publish_at": "2026-10-27T12:00:00+01:00",
+      "kind": "reel",
+      "file": "posts/jordi/automation/2026-10-27/reel.mp4",
+      "caption": "Una sesión de tirón simple, medible y sin ejercicios de relleno. Ajusta las cargas para dejar 1-2 repeticiones en reserva.\n\n#PullDay #Espalda #RutinaGym #JordiFitt",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "f0b9842ed5d9507ab1c6c4ecec9566dddc1ef4a5074769fea5a4593c1db3d652"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day01-story-1300",
+      "publish_at": "2026-10-27T13:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-27/story-13h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "f0b9842ed5d9507ab1c6c4ecec9566dddc1ef4a5074769fea5a4593c1db3d652"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day01-story-1500",
+      "publish_at": "2026-10-27T15:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-27/story-15h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "f0b9842ed5d9507ab1c6c4ecec9566dddc1ef4a5074769fea5a4593c1db3d652"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day02-post-1000",
+      "publish_at": "2026-10-28T10:00:00+01:00",
+      "kind": "post",
+      "file": "posts/jordi/automation/2026-10-28/post.jpg",
+      "caption": "Las búlgaras no necesitan una carga absurda. Baja con control, mantén el pie estable y deja que trabaje la pierna delantera.\n\n#LegDay #Bulgarians #Pierna #JordiFitt",
+      "quality": {
+        "status": "approved",
+        "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e",
+        "technical": {
+          "approved": true,
+          "width": 1122,
+          "height": 1402,
+          "mean_luma": 53.97,
+          "contrast": 39.89,
+          "edge_std": 24.33,
+          "clipped_dark": 0.0319,
+          "clipped_light": 0.0,
+          "reasons": []
+        },
+        "visual_review": "Postura, apoyo, mancuernas y extremidades coherentes; ropa y gimnasio distintos; aprobada."
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day02-reel-1200",
+      "publish_at": "2026-10-28T12:00:00+01:00",
+      "kind": "reel",
+      "file": "posts/jordi/automation/2026-10-28/reel.mp4",
+      "caption": "Un ejemplo sencillo de día de comidas para entrenar con energía. Las cantidades dependen de tu objetivo, tamaño y actividad.\n\n#NutricionDeportiva #GymFood #FitnessEspaña #JordiFitt",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day02-story-1300",
+      "publish_at": "2026-10-28T13:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-28/story-13h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day02-story-1500",
+      "publish_at": "2026-10-28T15:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-28/story-15h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day03-post-1000",
+      "publish_at": "2026-10-29T10:00:00+01:00",
+      "kind": "post",
+      "file": "posts/jordi/automation/2026-10-29/post.jpg",
+      "caption": "El cardio no tiene que destruir tu sesión de fuerza. Ve suave, sé constante y úsalo para mejorar tu capacidad de trabajo.\n\n#Cardio #Fitness #Habitos #JordiFitt",
+      "quality": {
+        "status": "approved",
+        "source_sha256": "7c951c365fe84558f3bc2157a4e511645157e713eb9ba7ca1aff27268ad0706b",
+        "technical": {
+          "approved": true,
+          "width": 941,
+          "height": 1672,
+          "mean_luma": 45.71,
+          "contrast": 40.9,
+          "edge_std": 16.52,
+          "clipped_dark": 0.0468,
+          "clipped_light": 0.001,
+          "reasons": []
+        },
+        "visual_review": "Escena nocturna natural; postura de recuperación, ropa mojada y máquina coherentes; aprobada."
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day03-reel-1200",
+      "publish_at": "2026-10-29T12:00:00+01:00",
+      "kind": "reel",
+      "file": "posts/jordi/automation/2026-10-29/reel.mp4",
+      "caption": "Si la técnica cambia en cada repetición, no sabes qué estás progresando. Mantén el recorrido y controla la vuelta.\n\n#BackDay #TecnicaGym #Espalda #JordiFitt",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "7c951c365fe84558f3bc2157a4e511645157e713eb9ba7ca1aff27268ad0706b"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day03-story-1300",
+      "publish_at": "2026-10-29T13:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-29/story-13h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "7c951c365fe84558f3bc2157a4e511645157e713eb9ba7ca1aff27268ad0706b"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day03-story-1500",
+      "publish_at": "2026-10-29T15:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-29/story-15h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "7c951c365fe84558f3bc2157a4e511645157e713eb9ba7ca1aff27268ad0706b"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day04-post-1000",
+      "publish_at": "2026-10-30T10:00:00+01:00",
+      "kind": "post",
+      "file": "posts/jordi/automation/2026-10-30/post.jpg",
+      "caption": "La sesión empieza antes de la primera serie: carga preparada, objetivo claro y descansos medidos.\n\n#Fuerza #GymRoutine #Disciplina #JordiFitt",
+      "quality": {
+        "status": "approved",
+        "source_sha256": "1a61c51fae22fae0720c9afd171b5c59455cd4a886a784b673ed1e5561b18cd8",
+        "technical": {
+          "approved": true,
+          "width": 1122,
+          "height": 1402,
+          "mean_luma": 85.67,
+          "contrast": 66.73,
+          "edge_std": 24.92,
+          "clipped_dark": 0.0204,
+          "clipped_light": 0.0349,
+          "reasons": []
+        },
+        "visual_review": "Manos, disco, barra y rack correctos; escena de preparación creíble; aprobada."
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day04-reel-1200",
+      "publish_at": "2026-10-30T12:00:00+01:00",
+      "kind": "reel",
+      "file": "posts/jordi/automation/2026-10-30/reel.mp4",
+      "caption": "Una rutina de pierna completa no necesita quince ejercicios. Progresa en estos cinco y registra cada serie.\n\n#LegDay #RutinaPierna #Fuerza #JordiFitt",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "1a61c51fae22fae0720c9afd171b5c59455cd4a886a784b673ed1e5561b18cd8"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day04-story-1300",
+      "publish_at": "2026-10-30T13:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-30/story-13h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "1a61c51fae22fae0720c9afd171b5c59455cd4a886a784b673ed1e5561b18cd8"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day04-story-1500",
+      "publish_at": "2026-10-30T15:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-30/story-15h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "1a61c51fae22fae0720c9afd171b5c59455cd4a886a784b673ed1e5561b18cd8"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day05-post-1000",
+      "publish_at": "2026-10-31T10:00:00+01:00",
+      "kind": "post",
+      "file": "posts/jordi/automation/2026-10-31/post.jpg",
+      "caption": "Dominadas al amanecer. Repeticiones limpias, rango que puedas controlar y paciencia para sumar una más.\n\n#Dominadas #Calistenia #MorningWorkout #JordiFitt",
+      "quality": {
+        "status": "approved",
+        "source_sha256": "b23002c8a9b04232e6dd4fdbdf067667dd225b9541e9f2f74c04ac236ff234a6",
+        "technical": {
+          "approved": true,
+          "width": 1122,
+          "height": 1402,
+          "mean_luma": 120.27,
+          "contrast": 78.4,
+          "edge_std": 30.52,
+          "clipped_dark": 0.0021,
+          "clipped_light": 0.0117,
+          "reasons": []
+        },
+        "visual_review": "Agarre, barra y postura de dominada correctos; entorno exterior y ropa diferenciados; aprobada."
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day05-reel-1200",
+      "publish_at": "2026-10-31T12:00:00+01:00",
+      "kind": "reel",
+      "file": "posts/jordi/automation/2026-10-31/reel.mp4",
+      "caption": "Organiza la comida para llegar con energía y poder recuperarte. Lo importante sigue siendo el total del día.\n\n#PreWorkout #PostWorkout #NutricionFitness #JordiFitt",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "b23002c8a9b04232e6dd4fdbdf067667dd225b9541e9f2f74c04ac236ff234a6"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day05-story-1300",
+      "publish_at": "2026-10-31T13:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-31/story-13h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "b23002c8a9b04232e6dd4fdbdf067667dd225b9541e9f2f74c04ac236ff234a6"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day05-story-1500",
+      "publish_at": "2026-10-31T15:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-10-31/story-15h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "b23002c8a9b04232e6dd4fdbdf067667dd225b9541e9f2f74c04ac236ff234a6"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day06-post-1000",
+      "publish_at": "2026-11-01T10:00:00+01:00",
+      "kind": "post",
+      "file": "posts/jordi/automation/2026-11-01/post.jpg",
+      "caption": "No todos los días empiezan con motivación. A veces solo te atas las zapatillas, entras y haces lo que estaba escrito.\n\n#Disciplina #GymLife #Constancia #JordiFitt",
+      "quality": {
+        "status": "approved",
+        "source_sha256": "af4a1bfeeefa3b51380cdedb7f8a83d3ff671059b51c88ff608f1505f0f13578",
+        "technical": {
+          "approved": true,
+          "width": 941,
+          "height": 1672,
+          "mean_luma": 91.68,
+          "contrast": 59.91,
+          "edge_std": 26.69,
+          "clipped_dark": 0.0218,
+          "clipped_light": 0.005,
+          "reasons": []
+        },
+        "visual_review": "Manos, cordones y calzado correctos; vestuario cotidiano y gesto natural; aprobada."
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day06-reel-1200",
+      "publish_at": "2026-11-01T12:00:00+01:00",
+      "kind": "reel",
+      "file": "posts/jordi/automation/2026-11-01/reel.mp4",
+      "caption": "Antes de buscar otra rutina, comprueba si estás midiendo la actual. Sin datos, todo parece estancado.\n\n#Progresion #GymTips #Entrenamiento #JordiFitt",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "af4a1bfeeefa3b51380cdedb7f8a83d3ff671059b51c88ff608f1505f0f13578"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day06-story-1300",
+      "publish_at": "2026-11-01T13:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-11-01/story-13h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "af4a1bfeeefa3b51380cdedb7f8a83d3ff671059b51c88ff608f1505f0f13578"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day06-story-1500",
+      "publish_at": "2026-11-01T15:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-11-01/story-15h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "af4a1bfeeefa3b51380cdedb7f8a83d3ff671059b51c88ff608f1505f0f13578"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day07-post-1000",
+      "publish_at": "2026-11-02T10:00:00+01:00",
+      "kind": "post",
+      "file": "posts/jordi/automation/2026-11-02/post.jpg",
+      "caption": "El trineo no negocia: postura firme, pasos cortos y sigue empujando cuando empieza a pesar.\n\n#SledPush #Conditioning #GymTraining #JordiFitt",
+      "quality": {
+        "status": "approved",
+        "source_sha256": "5476ff726b6b9d2be85e85bb82f5994c7a2e5fdfd7f0bb0f62d809baeeda7fd0",
+        "technical": {
+          "approved": true,
+          "width": 1122,
+          "height": 1402,
+          "mean_luma": 53.01,
+          "contrast": 44.4,
+          "edge_std": 26.48,
+          "clipped_dark": 0.0266,
+          "clipped_light": 0.0,
+          "reasons": []
+        },
+        "visual_review": "Empuje, manos, piernas, trineo y discos físicamente plausibles; toma dinámica aprobada."
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day07-reel-1200",
+      "publish_at": "2026-11-02T12:00:00+01:00",
+      "kind": "reel",
+      "file": "posts/jordi/automation/2026-11-02/reel.mp4",
+      "caption": "El Arnold split puede funcionar si recuperas bien y ajustas el volumen. Más días no siempre significa más progreso.\n\n#ArnoldSplit #RutinaGym #Hipertrofia #JordiFitt",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "5476ff726b6b9d2be85e85bb82f5994c7a2e5fdfd7f0bb0f62d809baeeda7fd0"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day07-story-1300",
+      "publish_at": "2026-11-02T13:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-11-02/story-13h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "5476ff726b6b9d2be85e85bb82f5994c7a2e5fdfd7f0bb0f62d809baeeda7fd0"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "day07-story-1500",
+      "publish_at": "2026-11-02T15:00:00+01:00",
+      "kind": "story",
+      "file": "posts/jordi/automation/2026-11-02/story-15h.jpg",
+      "caption": "",
+      "quality": {
+        "status": "derived_from_approved_source",
+        "source_sha256": "5476ff726b6b9d2be85e85bb82f5994c7a2e5fdfd7f0bb0f62d809baeeda7fd0"
+      },
+      "status": "pending"
+    }
+  ]
+}

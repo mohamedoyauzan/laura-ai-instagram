@@ -1,0 +1,90 @@
+{
+  "timezone": "Europe/Madrid",
+  "account_username": "jordi_fitt",
+  "start_date": "2026-10-27",
+  "times": {
+    "post": "10:00",
+    "reel": "12:00",
+    "story_1": "13:00",
+    "story_2": "15:00"
+  },
+  "days": [
+    {
+      "id": "day01",
+      "source": "assets/jordi/automation/source/01-cable-row.png",
+      "review": "Identidad consistente; espalda, mano, cable y máquina plausibles; encuadre de espalda aprobado.",
+      "post_caption": "Remo a una mano: hombro abajo, codo hacia la cadera y vuelta controlada. Menos impulso, más espalda.\n\n#Espalda #PullDay #GymTips #JordiFitt",
+      "story_1": "PULL DAY\nprimera serie, sin ego",
+      "story_2": "REMO A UNA MANO\n3 x 8-12 por lado",
+      "reel_title": "PULL DAY SIN PERDER TIEMPO",
+      "reel_lines": ["1. Dominadas | 4 x 6-10", "2. Remo cable | 3 x 8-12", "3. Jalón neutro | 3 x 10-12", "4. Curl inclinado | 3 x 10-15", "Guárdalo para tu próxima sesión"],
+      "reel_caption": "Una sesión de tirón simple, medible y sin ejercicios de relleno. Ajusta las cargas para dejar 1-2 repeticiones en reserva.\n\n#PullDay #Espalda #RutinaGym #JordiFitt"
+    },
+    {
+      "id": "day02",
+      "source": "assets/jordi/automation/source/02-bulgarian-split-squat.png",
+      "review": "Postura, apoyo, mancuernas y extremidades coherentes; ropa y gimnasio distintos; aprobada.",
+      "post_caption": "Las búlgaras no necesitan una carga absurda. Baja con control, mantén el pie estable y deja que trabaje la pierna delantera.\n\n#LegDay #Bulgarians #Pierna #JordiFitt",
+      "story_1": "LEG DAY\ncalentamiento hecho",
+      "story_2": "BÚLGARAS\ncontrol antes que kilos",
+      "reel_title": "QUÉ COMO EN UN DÍA DE ENTRENO",
+      "reel_lines": ["DESAYUNO | yogur + avena + fruta", "COMIDA | arroz + pollo + verduras", "PRE-ENTRENO | plátano + café", "CENA | patata + salmón + ensalada", "Proteína en cada comida. Agua todo el día."],
+      "reel_caption": "Un ejemplo sencillo de día de comidas para entrenar con energía. Las cantidades dependen de tu objetivo, tamaño y actividad.\n\n#NutricionDeportiva #GymFood #FitnessEspaña #JordiFitt"
+    },
+    {
+      "id": "day03",
+      "source": "assets/jordi/automation/source/03-night-cardio.png",
+      "review": "Escena nocturna natural; postura de recuperación, ropa mojada y máquina coherentes; aprobada.",
+      "post_caption": "El cardio no tiene que destruir tu sesión de fuerza. Ve suave, sé constante y úsalo para mejorar tu capacidad de trabajo.\n\n#Cardio #Fitness #Habitos #JordiFitt",
+      "story_1": "20 MIN SUAVES\ny a casa",
+      "story_2": "NO TODO ES MÁXIMO\nla constancia gana",
+      "reel_title": "3 ERRORES QUE FRENAN TU ESPALDA",
+      "reel_lines": ["1. Tirar con las manos", "2. Convertir cada remo en un balanceo", "3. Soltar la fase negativa", "Piensa: codos hacia atrás", "Repite la misma técnica antes de subir peso"],
+      "reel_caption": "Si la técnica cambia en cada repetición, no sabes qué estás progresando. Mantén el recorrido y controla la vuelta.\n\n#BackDay #TecnicaGym #Espalda #JordiFitt"
+    },
+    {
+      "id": "day04",
+      "source": "assets/jordi/automation/source/04-loading-plates.png",
+      "review": "Manos, disco, barra y rack correctos; escena de preparación creíble; aprobada.",
+      "post_caption": "La sesión empieza antes de la primera serie: carga preparada, objetivo claro y descansos medidos.\n\n#Fuerza #GymRoutine #Disciplina #JordiFitt",
+      "story_1": "HOY TOCA FUERZA\nsin improvisar",
+      "story_2": "SERIES EFECTIVAS\n1-2 reps en reserva",
+      "reel_title": "PIERNA COMPLETA EN 60 MINUTOS",
+      "reel_lines": ["Sentadilla | 4 x 5-8", "Peso muerto rumano | 3 x 8-10", "Búlgaras | 3 x 10 por pierna", "Curl femoral | 3 x 10-15", "Gemelos | 4 x 12-20"],
+      "reel_caption": "Una rutina de pierna completa no necesita quince ejercicios. Progresa en estos cinco y registra cada serie.\n\n#LegDay #RutinaPierna #Fuerza #JordiFitt"
+    },
+    {
+      "id": "day05",
+      "source": "assets/jordi/automation/source/05-rooftop-pullups.png",
+      "review": "Agarre, barra y postura de dominada correctos; entorno exterior y ropa diferenciados; aprobada.",
+      "post_caption": "Dominadas al amanecer. Repeticiones limpias, rango que puedas controlar y paciencia para sumar una más.\n\n#Dominadas #Calistenia #MorningWorkout #JordiFitt",
+      "story_1": "SESIÓN TEMPRANO\nantes de que empiece el ruido",
+      "story_2": "DOMINADAS\n4 series con control",
+      "reel_title": "COME MEJOR ALREDEDOR DEL ENTRENO",
+      "reel_lines": ["2-3 h antes | comida completa", "30-60 min antes | fruta si la necesitas", "Durante | agua; sal si sudas mucho", "Después | proteína + carbohidrato", "No necesitas una ventana de 20 minutos"],
+      "reel_caption": "Organiza la comida para llegar con energía y poder recuperarte. Lo importante sigue siendo el total del día.\n\n#PreWorkout #PostWorkout #NutricionFitness #JordiFitt"
+    },
+    {
+      "id": "day06",
+      "source": "assets/jordi/automation/source/06-locker-room.png",
+      "review": "Manos, cordones y calzado correctos; vestuario cotidiano y gesto natural; aprobada.",
+      "post_caption": "No todos los días empiezan con motivación. A veces solo te atas las zapatillas, entras y haces lo que estaba escrito.\n\n#Disciplina #GymLife #Constancia #JordiFitt",
+      "story_1": "CERO GANAS\npero ya estamos aquí",
+      "story_2": "PLAN DE HOY\n45 min y fuera",
+      "reel_title": "SI NO PROGRESAS, REVISA ESTO",
+      "reel_lines": ["¿Repites la misma técnica?", "¿Anotas peso y repeticiones?", "¿Duermes suficiente?", "¿Comes según tu objetivo?", "Cambia una variable, no toda la rutina"],
+      "reel_caption": "Antes de buscar otra rutina, comprueba si estás midiendo la actual. Sin datos, todo parece estancado.\n\n#Progresion #GymTips #Entrenamiento #JordiFitt"
+    },
+    {
+      "id": "day07",
+      "source": "assets/jordi/automation/source/07-sled-push.png",
+      "review": "Empuje, manos, piernas, trineo y discos físicamente plausibles; toma dinámica aprobada.",
+      "post_caption": "El trineo no negocia: postura firme, pasos cortos y sigue empujando cuando empieza a pesar.\n\n#SledPush #Conditioning #GymTraining #JordiFitt",
+      "story_1": "FINISHER\n4 vueltas de trineo",
+      "story_2": "SEMANA HECHA\nmañana recuperamos",
+      "reel_title": "ARNOLD SPLIT EN 6 DÍAS",
+      "reel_lines": ["Día 1 | pecho + espalda", "Día 2 | hombro + brazos", "Día 3 | pierna", "Días 4-6 | repite con menos volumen", "Si no recuperas, usa solo 3-4 días"],
+      "reel_caption": "El Arnold split puede funcionar si recuperas bien y ajustas el volumen. Más días no siempre significa más progreso.\n\n#ArnoldSplit #RutinaGym #Hipertrofia #JordiFitt"
+    }
+  ]
+}

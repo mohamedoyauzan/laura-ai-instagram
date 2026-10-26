@@ -1,0 +1,70 @@
+name: Publicar Jordi en Instagram
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Comprobar sin publicar"
+        required: false
+        default: true
+        type: boolean
+
+concurrency:
+  group: instagram-jordi-daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Descargar proyecto
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar validadores
+        run: python -m pip install Pillow==12.0.0
+
+      - name: Comprobar credenciales de Jordi
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.JORDI_INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.JORDI_INSTAGRAM_USER_ID }}
+        run: |
+          test -n "$INSTAGRAM_ACCESS_TOKEN"
+          test -n "$INSTAGRAM_USER_ID"
+          python instagram_publish.py verify
+
+      - name: Publicar únicamente el siguiente horario vencido
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.JORDI_INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.JORDI_INSTAGRAM_USER_ID }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            python jordi_automation.py due --dry-run
+          else
+            python jordi_automation.py due
+          fi
+
+      - name: Guardar estado anti-duplicados
+        if: always()
+        run: |
+          if git diff --quiet -- jordi_automation_schedule.json; then
+            exit 0
+          fi
+          git config user.name "Jordi Instagram Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add jordi_automation_schedule.json
+          git commit -m "Registrar publicación automática de Jordi"
+          git pull --rebase origin main
+          git push
