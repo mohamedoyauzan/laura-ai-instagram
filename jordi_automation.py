@@ -125,6 +125,20 @@ def status() -> dict:
     return {"account": schedule["account_username"], "counts": counts, "next": next_item}
 
 
+def verify_expected_account() -> dict:
+    schedule = load_schedule()
+    account = verify_account()
+    actual = account.get("username")
+    expected = schedule["account_username"]
+    if actual != expected:
+        raise RuntimeError(f"Cuenta inesperada: {actual}; se esperaba {expected}")
+    return {
+        "connected": True,
+        "username": actual,
+        "account_type": account.get("account_type"),
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -133,10 +147,13 @@ def main() -> int:
     due.add_argument("--slot", default="")
     due.add_argument("--now", default="", help="Fecha ISO para pruebas")
     sub.add_parser("status")
+    sub.add_parser("verify")
     args = parser.parse_args()
     try:
         if args.command == "status":
             output = status()
+        elif args.command == "verify":
+            output = verify_expected_account()
         else:
             test_now = datetime.fromisoformat(args.now) if args.now else None
             output = run(now=test_now, dry_run=args.dry_run, slot_id=args.slot)
