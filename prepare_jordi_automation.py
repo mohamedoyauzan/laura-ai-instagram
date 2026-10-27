@@ -149,7 +149,7 @@ def save_reel_frame(source: Path, destination: Path, kicker: str, message: str, 
     body_box = draw.multiline_textbbox((0, 0), wrapped, font=body_font, spacing=20, align="center", stroke_width=3)
     body_h = body_box[3] - body_box[1]
     multiline_center(draw, wrapped, 865 - body_h / 2, face=body_font, fill="white", spacing=20)
-    draw.text((90, 1260), "GUÁRDALO · JORDI FITT", font=font(28, True), fill="#C8C8C8")
+    draw.text((90, 1260), "SÍGUEME PARA MÁS · JORDI FITT", font=font(28, True), fill="#C8C8C8")
     Image.alpha_composite(image, overlay).convert("RGB").save(destination, "JPEG", quality=91, optimize=True, progressive=True)
 
 
@@ -265,6 +265,11 @@ def main() -> None:
             frame_path = frames_dir / f"{frame_index:02d}.jpg"
             save_reel_frame(frame_source, frame_path, item["reel_title"], line, accent, frame_index)
             frame_paths.append(frame_path)
+        # End every Reel with an unambiguous follow call-to-action instead of
+        # leaving the viewer on the final exercise slide.
+        cta_path = frames_dir / "follow.jpg"
+        save_reel_frame(source, cta_path, "JORDI FITT", "SÍGUEME PARA MÁS", accent, len(frame_paths) + 1)
+        frame_paths.append(cta_path)
         music = MUSIC[day_index % len(MUSIC)]
         make_reel(frame_paths, reel, music, music_start=8 + (day_index * 11) % 45)
 
