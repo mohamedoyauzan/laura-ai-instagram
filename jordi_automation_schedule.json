@@ -26,7 +26,8 @@
         },
         "visual_review": "Identidad consistente; espalda, mano, cable y máquina plausibles; encuadre de espalda aprobado."
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-10-27T15:29:02.583732+01:00"
     },
     {
       "id": "day01-reel-1200",
@@ -38,7 +39,8 @@
         "status": "derived_from_approved_source",
         "source_sha256": "f0b9842ed5d9507ab1c6c4ecec9566dddc1ef4a5074769fea5a4593c1db3d652"
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-10-27T15:29:02.583732+01:00"
     },
     {
       "id": "day01-story-1300",
@@ -50,7 +52,9 @@
         "status": "derived_from_approved_source",
         "source_sha256": "f0b9842ed5d9507ab1c6c4ecec9566dddc1ef4a5074769fea5a4593c1db3d652"
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "18139818745617933",
+      "published_at": "2026-10-27T15:29:11.537704+01:00"
     },
     {
       "id": "day01-story-1500",
