@@ -91,7 +91,8 @@
         },
         "visual_review": "Postura, apoyo, mancuernas y extremidades coherentes; ropa y gimnasio distintos; aprobada."
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-10-28T16:40:42.087326+01:00"
     },
     {
       "id": "day02-reel-1200",
@@ -103,7 +104,8 @@
         "status": "derived_from_approved_source",
         "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-10-28T16:40:42.087326+01:00"
     },
     {
       "id": "day02-story-1300",
@@ -115,7 +117,8 @@
         "status": "derived_from_approved_source",
         "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-10-28T16:40:42.087326+01:00"
     },
     {
       "id": "day02-story-1500",
@@ -127,7 +130,9 @@
         "status": "derived_from_approved_source",
         "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "18195938302393014",
+      "published_at": "2026-10-28T16:40:49.977721+01:00"
     },
     {
       "id": "day03-post-1000",
