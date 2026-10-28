@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-27T16:51:57.884757+00:00",
+  "collected_at": "2026-10-28T17:25:17.024315+00:00",
   "media": [
     {
       "id": "18132857759494997",
@@ -49,8 +49,8 @@
       "like_count": 3,
       "comments_count": 1,
       "insights": {
-        "views": 50,
-        "reach": 14,
+        "views": 51,
+        "reach": 15,
         "likes": 3,
         "comments": 1,
         "saved": 0,
@@ -68,8 +68,8 @@
       "like_count": 4,
       "comments_count": 2,
       "insights": {
-        "views": 37,
-        "reach": 13,
+        "views": 38,
+        "reach": 14,
         "likes": 4,
         "comments": 2,
         "saved": 0,
@@ -277,8 +277,8 @@
       "like_count": 4,
       "comments_count": 1,
       "insights": {
-        "views": 61,
-        "reach": 30,
+        "views": 62,
+        "reach": 31,
         "likes": 4,
         "comments": 1,
         "saved": 0,
@@ -296,8 +296,8 @@
       "like_count": 5,
       "comments_count": 1,
       "insights": {
-        "views": 65,
-        "reach": 31,
+        "views": 67,
+        "reach": 32,
         "likes": 5,
         "comments": 1,
         "saved": 0,
@@ -315,7 +315,7 @@
       "like_count": 5,
       "comments_count": 0,
       "insights": {
-        "views": 58,
+        "views": 59,
         "reach": 30,
         "likes": 5,
         "comments": 0,
