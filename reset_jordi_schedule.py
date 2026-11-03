@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import copy
+import argparse
 import json
 from datetime import date, datetime, time, timedelta
 from pathlib import Path
@@ -16,6 +17,9 @@ START = date(2026, 11, 4)
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--without-reels", action="store_true")
+    args = parser.parse_args()
     previous = json.loads(SCHEDULE.read_text(encoding="utf-8"))
     source_days: dict[str, list[dict]] = {}
     for item in previous["items"]:
@@ -28,6 +32,8 @@ def main() -> None:
     for offset, template in enumerate(templates):
         target_date = START + timedelta(days=offset)
         for item in template:
+            if args.without_reels and item["kind"] == "reel":
+                continue
             new_item = copy.deepcopy(item)
             source_time = datetime.fromisoformat(item["publish_at"]).timetz().replace(tzinfo=None)
             new_item["id"] = f"auto-{target_date.isoformat()}-{item['kind']}-{source_time.strftime('%H%M')}"
@@ -48,7 +54,7 @@ def main() -> None:
         "items": items,
     }
     SCHEDULE.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"days": 7, "items": len(items), "first": items[0]["publish_at"]}, ensure_ascii=False))
+    print(json.dumps({"days": 7, "items": len(items), "first": items[0]["publish_at"], "reels_paused": args.without_reels}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

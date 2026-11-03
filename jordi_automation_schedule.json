@@ -2,7 +2,7 @@
   "version": 2,
   "timezone": "Europe/Madrid",
   "account_username": "jordi_fitt",
-  "generated_at": "2026-11-03T19:33:09.845993+01:00",
+  "generated_at": "2026-11-03T19:38:46.415229+01:00",
   "items": [
     {
       "id": "auto-2026-11-04-post-1000",
@@ -25,18 +25,6 @@
           "reasons": []
         },
         "visual_review": "Identidad consistente; espalda, mano, cable y máquina plausibles; encuadre de espalda aprobado."
-      },
-      "status": "pending"
-    },
-    {
-      "id": "auto-2026-11-04-reel-1200",
-      "publish_at": "2026-11-04T12:00:00+01:00",
-      "kind": "reel",
-      "file": "posts/jordi/automation/2026-10-27/reel.mp4",
-      "caption": "Una sesión de tirón simple, medible y sin ejercicios de relleno. Ajusta las cargas para dejar 1-2 repeticiones en reserva.\n\n#PullDay #Espalda #RutinaGym #JordiFitt",
-      "quality": {
-        "status": "derived_from_approved_source",
-        "source_sha256": "f0b9842ed5d9507ab1c6c4ecec9566dddc1ef4a5074769fea5a4593c1db3d652"
       },
       "status": "pending"
     },
@@ -86,21 +74,7 @@
         },
         "visual_review": "Postura, apoyo, mancuernas y extremidades coherentes; ropa y gimnasio distintos; aprobada."
       },
-      "status": "expired",
-      "expired_at": "2026-10-28T16:40:42.087326+01:00"
-    },
-    {
-      "id": "auto-2026-11-05-reel-1200",
-      "publish_at": "2026-11-05T12:00:00+01:00",
-      "kind": "reel",
-      "file": "posts/jordi/automation/2026-10-28/reel.mp4",
-      "caption": "Un ejemplo sencillo de día de comidas para entrenar con energía. Las cantidades dependen de tu objetivo, tamaño y actividad.\n\n#NutricionDeportiva #GymFood #FitnessEspaña #JordiFitt",
-      "quality": {
-        "status": "derived_from_approved_source",
-        "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
-      },
-      "status": "expired",
-      "expired_at": "2026-10-28T16:40:42.087326+01:00"
+      "status": "pending"
     },
     {
       "id": "auto-2026-11-05-story-1300",
@@ -112,8 +86,7 @@
         "status": "derived_from_approved_source",
         "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
       },
-      "status": "expired",
-      "expired_at": "2026-10-28T16:40:42.087326+01:00"
+      "status": "pending"
     },
     {
       "id": "auto-2026-11-05-story-1500",
@@ -125,9 +98,7 @@
         "status": "derived_from_approved_source",
         "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
       },
-      "status": "published",
-      "media_id": "18195938302393014",
-      "published_at": "2026-10-28T16:40:49.977721+01:00"
+      "status": "pending"
     },
     {
       "id": "auto-2026-11-06-post-1000",
@@ -150,18 +121,6 @@
           "reasons": []
         },
         "visual_review": "Escena nocturna natural; postura de recuperación, ropa mojada y máquina coherentes; aprobada."
-      },
-      "status": "pending"
-    },
-    {
-      "id": "auto-2026-11-06-reel-1200",
-      "publish_at": "2026-11-06T12:00:00+01:00",
-      "kind": "reel",
-      "file": "posts/jordi/automation/2026-10-29/reel.mp4",
-      "caption": "Si la técnica cambia en cada repetición, no sabes qué estás progresando. Mantén el recorrido y controla la vuelta.\n\n#BackDay #TecnicaGym #Espalda #JordiFitt",
-      "quality": {
-        "status": "derived_from_approved_source",
-        "source_sha256": "7c951c365fe84558f3bc2157a4e511645157e713eb9ba7ca1aff27268ad0706b"
       },
       "status": "pending"
     },
@@ -214,18 +173,6 @@
       "status": "pending"
     },
     {
-      "id": "auto-2026-11-07-reel-1200",
-      "publish_at": "2026-11-07T12:00:00+01:00",
-      "kind": "reel",
-      "file": "posts/jordi/automation/2026-10-30/reel.mp4",
-      "caption": "Una rutina de pierna completa no necesita quince ejercicios. Progresa en estos cinco y registra cada serie.\n\n#LegDay #RutinaPierna #Fuerza #JordiFitt",
-      "quality": {
-        "status": "derived_from_approved_source",
-        "source_sha256": "1a61c51fae22fae0720c9afd171b5c59455cd4a886a784b673ed1e5561b18cd8"
-      },
-      "status": "pending"
-    },
-    {
       "id": "auto-2026-11-07-story-1300",
       "publish_at": "2026-11-07T13:00:00+01:00",
       "kind": "story",
@@ -270,18 +217,6 @@
           "reasons": []
         },
         "visual_review": "Agarre, barra y postura de dominada correctos; entorno exterior y ropa diferenciados; aprobada."
-      },
-      "status": "pending"
-    },
-    {
-      "id": "auto-2026-11-08-reel-1200",
-      "publish_at": "2026-11-08T12:00:00+01:00",
-      "kind": "reel",
-      "file": "posts/jordi/automation/2026-10-31/reel.mp4",
-      "caption": "Organiza la comida para llegar con energía y poder recuperarte. Lo importante sigue siendo el total del día.\n\n#PreWorkout #PostWorkout #NutricionFitness #JordiFitt",
-      "quality": {
-        "status": "derived_from_approved_source",
-        "source_sha256": "b23002c8a9b04232e6dd4fdbdf067667dd225b9541e9f2f74c04ac236ff234a6"
       },
       "status": "pending"
     },
@@ -334,18 +269,6 @@
       "status": "pending"
     },
     {
-      "id": "auto-2026-11-09-reel-1200",
-      "publish_at": "2026-11-09T12:00:00+01:00",
-      "kind": "reel",
-      "file": "posts/jordi/automation/2026-11-01/reel.mp4",
-      "caption": "Antes de buscar otra rutina, comprueba si estás midiendo la actual. Sin datos, todo parece estancado.\n\n#Progresion #GymTips #Entrenamiento #JordiFitt",
-      "quality": {
-        "status": "derived_from_approved_source",
-        "source_sha256": "af4a1bfeeefa3b51380cdedb7f8a83d3ff671059b51c88ff608f1505f0f13578"
-      },
-      "status": "pending"
-    },
-    {
       "id": "auto-2026-11-09-story-1300",
       "publish_at": "2026-11-09T13:00:00+01:00",
       "kind": "story",
@@ -390,18 +313,6 @@
           "reasons": []
         },
         "visual_review": "Empuje, manos, piernas, trineo y discos físicamente plausibles; toma dinámica aprobada."
-      },
-      "status": "pending"
-    },
-    {
-      "id": "auto-2026-11-10-reel-1200",
-      "publish_at": "2026-11-10T12:00:00+01:00",
-      "kind": "reel",
-      "file": "posts/jordi/automation/2026-11-02/reel.mp4",
-      "caption": "El Arnold split puede funcionar si recuperas bien y ajustas el volumen. Más días no siempre significa más progreso.\n\n#ArnoldSplit #RutinaGym #Hipertrofia #JordiFitt",
-      "quality": {
-        "status": "derived_from_approved_source",
-        "source_sha256": "5476ff726b6b9d2be85e85bb82f5994c7a2e5fdfd7f0bb0f62d809baeeda7fd0"
       },
       "status": "pending"
     },
