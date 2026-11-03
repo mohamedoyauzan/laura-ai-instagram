@@ -116,7 +116,7 @@ def save_story(source: Path, destination: Path, text: str, accent: str) -> None:
     draw.text((92, 1435), lines[0], font=font(74, True), fill="white", stroke_width=3, stroke_fill="#080808")
     if len(lines) > 1:
         draw.text((94, 1535), lines[1], font=font(48), fill="#E8E8E8", stroke_width=2, stroke_fill="#080808")
-    draw.text((92, 1650), "creador fitness virtual", font=font(26), fill="#B7B7B7")
+    draw.text((92, 1650), "JORDI FITT", font=font(26, True), fill="#B7B7B7")
     Image.alpha_composite(image.convert("RGBA"), overlay).convert("RGB").save(destination, "JPEG", quality=91, optimize=True, progressive=True)
 
 
@@ -142,14 +142,18 @@ def save_reel_frame(source: Path, destination: Path, kicker: str, message: str, 
     overlay = Image.new("RGBA", image.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
     draw.rectangle((0, 0, 1080, 1920), fill=(0, 0, 0, 65))
-    draw.rounded_rectangle((62, 570, 1018, 1335), radius=38, fill=(0, 0, 0, 178), outline=(255, 255, 255, 28), width=2)
-    draw.text((90, 615), f"{index:02d}  {kicker}", font=font(32, True), fill=accent)
+    # Text stays inside Instagram's safe area: clear of the profile controls,
+    # caption and share buttons. Deliberately no outlined panels or edge boxes.
+    draw.rectangle((0, 290, 1080, 610), fill=(0, 0, 0, 95))
+    draw.rectangle((0, 1120, 1080, 1400), fill=(0, 0, 0, 90))
+    draw.text((540, 335), f"{index:02d} · {kicker}", font=font(30, True), fill=accent, anchor="ma", stroke_width=2, stroke_fill="#070707")
     body_font = font(72 if len(message) < 36 else 62, True)
-    wrapped = wrap_text(draw, message, body_font, 860)
+    wrapped = wrap_text(draw, message, body_font, 900)
     body_box = draw.multiline_textbbox((0, 0), wrapped, font=body_font, spacing=20, align="center", stroke_width=3)
     body_h = body_box[3] - body_box[1]
-    multiline_center(draw, wrapped, 865 - body_h / 2, face=body_font, fill="white", spacing=20)
-    draw.text((90, 1260), "SÍGUEME PARA MÁS · JORDI FITT", font=font(28, True), fill="#C8C8C8")
+    multiline_center(draw, wrapped, 455 - body_h / 2, face=body_font, fill="white", spacing=20)
+    draw.text((540, 1185), "JORDI FITT", font=font(29, True), fill=accent, anchor="ma", stroke_width=2, stroke_fill="#070707")
+    draw.text((540, 1240), "SÍGUEME PARA MÁS", font=font(47, True), fill="white", anchor="ma", stroke_width=2, stroke_fill="#070707")
     Image.alpha_composite(image, overlay).convert("RGB").save(destination, "JPEG", quality=91, optimize=True, progressive=True)
 
 
@@ -159,14 +163,11 @@ def make_reel(frame_paths: list[Path], destination: Path, music: Path, music_sta
     inputs: list[str] = []
     filters: list[str] = []
     duration = 3.8
-    frames = 30 * duration
     for index, path in enumerate(frame_paths):
         inputs += ["-loop", "1", "-t", f"{duration:.1f}", "-i", str(path)]
-        zoom = "0.00034" if index % 2 else "0.00046"
         filters.append(
-            f"[{index}:v]scale=1200:2134:force_original_aspect_ratio=increase,crop=1080:1920,"
-            f"zoompan=z='min(zoom+{zoom},1.055)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-            f"d={int(frames)}:s=1080x1920:fps=30,fade=t=in:st=0:d=0.12,"
+            f"[{index}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
+            f"fps=30,fade=t=in:st=0:d=0.12,"
             f"fade=t=out:st={duration - 0.22:.2f}:d=0.22,format=yuv420p,setpts=PTS-STARTPTS[v{index}]"
         )
     concat = "".join(f"[v{i}]" for i in range(len(frame_paths)))
