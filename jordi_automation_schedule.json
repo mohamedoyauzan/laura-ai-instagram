@@ -40,7 +40,9 @@
         "status": "derived_from_approved_source",
         "source_sha256": "f0b9842ed5d9507ab1c6c4ecec9566dddc1ef4a5074769fea5a4593c1db3d652"
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "18108661457360492",
+      "published_at": "2026-11-04T23:53:07.949461+01:00"
     },
     {
       "id": "auto-2026-11-04-story-1500",
