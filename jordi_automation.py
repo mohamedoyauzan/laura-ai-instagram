@@ -106,7 +106,10 @@ def run(*, now: datetime | None = None, dry_run: bool = False, slot_id: str = ""
     if account.get("username") != schedule["account_username"]:
         raise RuntimeError(f"Cuenta inesperada: {account.get('username')}; se esperaba {schedule['account_username']}")
     assert_public(url)
-    media = publish_media(url, item.get("caption", ""), item["kind"])
+    # El plan interno llama "post" a una publicación de feed, mientras que
+    # la API de Instagram espera el tipo "photo".
+    media_kind = "photo" if item["kind"] == "post" else item["kind"]
+    media = publish_media(url, item.get("caption", ""), media_kind)
     item["status"] = "published"
     item["media_id"] = media.get("id")
     item["published_at"] = datetime.now(TZ).isoformat()
