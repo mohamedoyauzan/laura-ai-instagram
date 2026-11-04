@@ -71,7 +71,9 @@ def expire_old(schedule: dict, now: datetime) -> int:
         if item.get("status") != "pending":
             continue
         due = datetime.fromisoformat(item["publish_at"])
-        if due.date() < now.date() or now - due > MAX_LATE:
+        # No se descartan publicaciones del mismo día: un fallo temporal debe
+        # poder recuperarse en la siguiente ejecución del programador.
+        if due.date() < now.date():
             item["status"] = "expired"
             item["expired_at"] = now.isoformat()
             changed += 1
