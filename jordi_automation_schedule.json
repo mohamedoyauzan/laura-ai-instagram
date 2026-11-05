@@ -54,7 +54,8 @@
         "status": "derived_from_approved_source",
         "source_sha256": "f0b9842ed5d9507ab1c6c4ecec9566dddc1ef4a5074769fea5a4593c1db3d652"
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-11-05T04:02:33.171883+01:00"
     },
     {
       "id": "auto-2026-11-05-post-1000",
