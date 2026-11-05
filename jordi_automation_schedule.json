@@ -107,7 +107,8 @@
         "status": "derived_from_approved_source",
         "source_sha256": "8375bc3a813752d83cf0e9a48dbc20daac23361251f7a423d2efb34cb1bf2c7e"
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-11-06T00:47:25.151787+01:00"
     },
     {
       "id": "auto-2026-11-06-post-1000",
