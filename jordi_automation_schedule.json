@@ -132,7 +132,9 @@
         },
         "visual_review": "Escena nocturna natural; postura de recuperación, ropa mojada y máquina coherentes; aprobada."
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "18385782739237555",
+      "published_at": "2026-11-06T13:31:40.659633+01:00"
     },
     {
       "id": "auto-2026-11-06-story-1300",
