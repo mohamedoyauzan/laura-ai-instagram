@@ -185,7 +185,9 @@
         },
         "visual_review": "Manos, disco, barra y rack correctos; escena de preparación creíble; aprobada."
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "17870982117661952",
+      "published_at": "2026-11-07T12:02:35.475764+01:00"
     },
     {
       "id": "auto-2026-11-07-story-1300",
