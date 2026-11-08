@@ -253,7 +253,9 @@
         "status": "derived_from_approved_source",
         "source_sha256": "b23002c8a9b04232e6dd4fdbdf067667dd225b9541e9f2f74c04ac236ff234a6"
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "18056658743590312",
+      "published_at": "2026-11-08T18:14:53.831159+01:00"
     },
     {
       "id": "auto-2026-11-08-story-1500",
