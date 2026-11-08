@@ -267,7 +267,9 @@
         "status": "derived_from_approved_source",
         "source_sha256": "b23002c8a9b04232e6dd4fdbdf067667dd225b9541e9f2f74c04ac236ff234a6"
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "18140715958729340",
+      "published_at": "2026-11-08T22:13:34.136259+01:00"
     },
     {
       "id": "auto-2026-11-09-post-1000",
