@@ -293,7 +293,9 @@
         },
         "visual_review": "Manos, cordones y calzado correctos; vestuario cotidiano y gesto natural; aprobada."
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "18080823800414149",
+      "published_at": "2026-11-09T18:49:21.165940+01:00"
     },
     {
       "id": "auto-2026-11-09-story-1300",
