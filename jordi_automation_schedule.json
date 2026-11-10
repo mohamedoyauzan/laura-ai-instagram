@@ -345,7 +345,9 @@
         },
         "visual_review": "Empuje, manos, piernas, trineo y discos físicamente plausibles; toma dinámica aprobada."
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "17918185743467491",
+      "published_at": "2026-11-10T17:31:40.560089+01:00"
     },
     {
       "id": "auto-2026-11-10-story-1300",
