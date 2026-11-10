@@ -359,7 +359,9 @@
         "status": "derived_from_approved_source",
         "source_sha256": "5476ff726b6b9d2be85e85bb82f5994c7a2e5fdfd7f0bb0f62d809baeeda7fd0"
       },
-      "status": "pending"
+      "status": "published",
+      "media_id": "18070055006716516",
+      "published_at": "2026-11-10T22:57:46.761167+01:00"
     },
     {
       "id": "auto-2026-11-10-story-1500",
