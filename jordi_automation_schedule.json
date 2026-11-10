@@ -307,7 +307,8 @@
         "status": "derived_from_approved_source",
         "source_sha256": "af4a1bfeeefa3b51380cdedb7f8a83d3ff671059b51c88ff608f1505f0f13578"
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-11-10T02:04:43.950798+01:00"
     },
     {
       "id": "auto-2026-11-09-story-1500",
@@ -319,7 +320,8 @@
         "status": "derived_from_approved_source",
         "source_sha256": "af4a1bfeeefa3b51380cdedb7f8a83d3ff671059b51c88ff608f1505f0f13578"
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-11-10T02:04:43.950798+01:00"
     },
     {
       "id": "auto-2026-11-10-post-1000",
