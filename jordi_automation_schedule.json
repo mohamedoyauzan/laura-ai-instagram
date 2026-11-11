@@ -373,7 +373,8 @@
         "status": "derived_from_approved_source",
         "source_sha256": "5476ff726b6b9d2be85e85bb82f5994c7a2e5fdfd7f0bb0f62d809baeeda7fd0"
       },
-      "status": "pending"
+      "status": "expired",
+      "expired_at": "2026-11-11T02:43:39.450557+01:00"
     }
   ]
 }
